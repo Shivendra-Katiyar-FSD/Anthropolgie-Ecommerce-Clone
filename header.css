@@ -1,0 +1,104 @@
+
+#header{
+    width: 90%;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    /* border: 1px solid red; */
+    /* position: fixed; */
+}
+input{
+    font-size: 17px;
+}
+#header>div:first-child{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40px;
+    background-color: rgb(244, 238, 238);
+    font-size: 18px;
+}
+#header>div:first-child>a{
+    margin-right: 20px;
+}
+#header>div:first-child>a{
+    text-decoration: none;
+    color: teal;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+#header>div:first-child>a>span{
+    text-decoration: none;
+    color: teal;
+    margin-right: 15px;
+}
+#header>div:nth-child(2){
+    height: 60px;
+}
+#header input{
+    height: 35px;
+    width: 250px;
+}
+#header>div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+}
+#header>div:nth-child(2)>div:nth-child(1)>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+div>div>div:first-child{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+div>div>div:last-child{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#header>div>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header>div:nth-child(3)>div>div:first-child{
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+div>a>span{
+    color: teal;
+}
+
+#header>div:nth-child(3){
+    display: flex;
+    box-sizing: border-box;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+#header>div:nth-child(3)>a{
+    text-decoration: none;
+    color: black;
+}
+#header>div:nth-child(3)>a>div{
+    padding: 20px;
+}
+#header>div:nth-child(3)>a>div:hover{
+    color: teal;
+    border-bottom: 1px solid teal;
+    cursor: pointer;
+}
+#search-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+#search-div>span{
+    color: teal;
+}

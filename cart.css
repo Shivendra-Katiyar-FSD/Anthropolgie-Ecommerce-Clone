@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+}
+#products{
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+}
+#products>div{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#products>div>img{
+    width: 100%;
+}
+#products>div:first-child{
+    padding: 0;
+}
+#products>div:last-child{
+    padding: 0;
+}
+#products h3, #products p{
+    padding-left: 20px;
+}
+#products button{
+    padding: 5px 15px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+}
+#products button:hover{
+    color: white;
+    background-color: red;
+    border-radius: 8px;
+}
+#bill{
+    width: 40%;
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#bill>h3{
+    display: inline-block;
+}
+h3+h3{
+    margin-top: -10px;
+}
+#bill>button{
+    width: 30%;
+    font-size: 20px;   
+    margin-right: 20px;
+    padding: 15px 15px;
+}
+#bill>button:hover{
+    color: white;
+    background-color: teal;
+    border-radius: 10px;
+}
